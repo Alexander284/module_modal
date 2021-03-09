@@ -15,9 +15,9 @@
    
    window.addEventListener('DOMContentLoaded', () =>{
       
-	    const modalTimerId = setTimeout(() => openWindowModal('.modal', modalTimerId), 50000);
+	const modalTimerId = setTimeout(() => openWindowModal('.modal', modalTimerId), 50000);
 		  
-		modal('[data-modal]', '.modal', modalTimerId);
+	modal('[data-modal]', '.modal', modalTimerId);
 
    });
 ```
